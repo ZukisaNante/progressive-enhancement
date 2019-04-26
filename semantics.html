@@ -9,8 +9,21 @@
             header:first-child{
                 background-color: yellow;
             }
-            table, th, td{
+            #farmers, th, td{
                 border: 1px solid black;
+            }
+            #farmers tr:nth-child(even){
+                background-color: lightblue;
+            }
+            #farmers tr:hover{
+                background-color: grey;
+            }
+            #farmers th{
+                padding-top: 10px;
+                padding-bottom: 10px;
+                text-align: left;
+                background-color: brown;
+                color:white;
             }
             body{
                 font-size: 100%;
@@ -106,7 +119,7 @@
                 <p>----</p>
                 <section> <!--Nested section-->
                     <h2>Here is this dialog in the form of a table</h2>
-                    <table>
+                    <table id="farmers">
                         <tr>
                             <th>Event</th>
                             <th>Good or Bad?</th>
