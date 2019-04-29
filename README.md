@@ -1,1 +1,1 @@
-https://zukisanante.github.io/progressive-enhancement/semantics.html/
+https://zukisanante.github.io/progressive-enhancement/semantics.html
